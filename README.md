@@ -1,16 +1,27 @@
-## Hi there 👋
+<h2> Hello, I'm Nathan :wave:</h2>
 
-<!--
-**ngaillar/ngaillar** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+```php
+<?php
 
-Here are some ideas to get you started:
+class Developer {
+    public $name;
+    public $job;
+    public $language_spoken;
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+    public function __construct() {
+        $this->name = "Nathan Gaillard";
+        $this->job = "Fullstack Developer";
+        $this->language_spoken = ["fr", "en"];
+    }
+
+    public function say_hi() {
+        echo "Hello, welcome to my GitHub page !";
+    }
+}
+
+$developer = new Developer();
+$developer->say_hi();
+
+
+?>
+```
